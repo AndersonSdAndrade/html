@@ -1,0 +1,277 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html
+{
+    font-size: 62.5%;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+    color: white;
+    height: 100vh;
+    display: grid;
+    
+}
+
+body{
+    font-size: 1.6rem;
+}
+
+.principal{
+    
+    justify-content: space-around;
+    position: relative;
+    height:100%;
+    width: 100%;
+    background-color: white;
+    max-width: 969px;
+    margin: auto;
+    
+}
+
+.container{
+    position: relative;
+    background-color: rgb(0, 157, 255);
+    width: 100%;
+    height: 120px;
+    display: flex;
+    
+  
+}
+.titulo{
+    position: absolute;
+    font-size: 2.5rem;
+    left: 35%;
+    top: 40px;
+    font-family: 'Permanent Marker', cursive;
+    
+
+}
+pre{
+    position: absolute;
+    font-size: 3.5rem;
+    font-family: 'Permanent Marker', cursive;
+    right: 67%;
+    top: 10px;
+    color: rgb(255, 255, 255);
+
+}
+.container2{
+    position: relative;
+    display: flex;
+    background-color: aliceblue;
+    width: 100%;
+    height: 40px;
+    align-items: center;
+    max-width: 1618px;
+    
+    
+    
+}
+.botao{
+    top: 0px;
+    font-size: 1rem;
+    padding: 13px;
+    position: relative;
+    bottom: 7px;
+    left: 230px;
+    color: rgb(21, 40, 244);
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: .5s;
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+    font-weight: 700;
+
+}
+.botao:hover{
+    background: rgb(53, 139, 237);
+    border-radius: 50px;
+    color: black;
+    top: 5px;
+    
+}
+
+.container3{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+    left:px;
+}
+.parte1{
+    position: ralative;
+    height:30%;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    padding: 20px;
+    }
+    img{
+        border-radius: 100%;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    top: 25px;
+    left: 45px;
+}
+.texto{
+    position: relative;
+    font-family:'Times New Roman', Times, serif;
+    color: white;
+    font-size: 2.3rem;
+    text-align: center;
+    left: 140px;
+    top: 100px;
+    font-weight: 600;
+    padding-top: 5px;
+   
+
+}
+.parte2{
+    position: relative;
+    height: 65%;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+}
+h2{
+    position: absolute;
+    left: 15px;
+    top: 35px;
+    font-size: 3rem;
+    font-family:'Alfa Slab One', cursive;
+}
+.objetivo{
+    position: absolute;
+    font-family:'Times New Roman', Times, serif;
+    color: white;
+    font-size: 2.3rem;
+    text-align: justify;
+    left: 100px;
+    top: 100px;
+    font-weight: 600;
+    left: 100px;
+    
+
+}
+@media (max-width: 941px){
+    .objetivo{
+        font-size: 1.9rem;
+        left: 50px;
+    }
+    .texto{
+        font-size: 1.9rem;
+        left: 100px;
+    }
+}
+@media (max-width: 744px){
+    .objetivo{
+        font-size: 1.6rem;
+        left: 30px;
+        
+    }
+    .texto{
+        font-size: 1.6rem;
+        left: 0;
+        
+    }
+    img{
+        width: 130px;
+        height: 130px;
+        left: 40%;
+        padding: 0;
+        top: 45px;
+        
+    }
+    .parte1{
+        flex-direction: column;
+        height: 40%;
+        
+
+    }
+    h2{
+        font-size: 2.2rem;
+    }
+   
+}
+@media (max-width: 600px){
+    .objetivo{
+        font-size: 1.4rem;
+        left: 10px;
+       
+    }
+    .botao{
+        left:130px;
+    }
+    pre{
+        font-size: 3rem;
+    }
+    .titulo{
+        font-size: 2.3rem;
+    }
+
+}
+
+@media (max-width: 510px){
+    .objetivo{
+        font-size: 1.2rem;
+        left: 10px;
+       
+    }
+    .botao{
+        left:80px;
+        font-size: 0.9rem;
+    }
+    pre{
+        font-size: 2.7rem;
+    }
+    .titulo{
+        font-size: 2.1rem;
+    }
+    h2{
+        font-size: 2rem;
+    }
+    .texto{
+        font-size: 1.6rem;
+    }
+
+}
+@media (max-width: 438px){
+    .texto{
+        font-size: 1.2rem;
+        top: 40px;
+    }
+    .botao{
+        left:50px;
+        font-size: 0.8rem;
+    }
+    .objetivo{
+        font-size: 1rem;
+        left: 10px;
+       
+    }
+    img{
+        width: 90px;
+        height: 90px;
+        left: 37%;
+        top: 20px;
+        
+    }
+    .parte1{
+        flex-direction: column;
+        height: 30%;
+        
+
+    }
+}
+
+
+
+
+
+
+
